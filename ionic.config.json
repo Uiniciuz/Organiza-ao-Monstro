@@ -1,0 +1,7 @@
+{
+  "name": "organizaçãoMonstro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
