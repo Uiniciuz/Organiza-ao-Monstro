@@ -1,17 +1,19 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Metodos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="light" [fullscreen]="true">
+  <ion-list *ngFor="let p of metodos">
+    <ion-item [routerLink]="p.pagina">
+      <ion-thumbnail slot="start">
+        <img [src]="p.url">
+      </ion-thumbnail>
+      <ion-label>{{p.metodo}}</ion-label>
+    </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  </ion-list>
 </ion-content>

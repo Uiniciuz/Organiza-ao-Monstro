@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-button (click)="showTab1()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+
+    <ion-title>Metodo 01</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-slides pager="true">
+      <ion-slide>
+        <img src="/assets/metodo 01.jpg" id="legal" style="max-width: 100%;">
+        <h3>Vamos furgir</h3>
+        <p>esse metodo faz bem pra saude</p>
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/metodo 01.jpg" id="legal" style="max-width: 100%;">
+        <h3>Vamos furgir 02</h3>
+        <p>Além de lhe possibilitar maior aprendizagem</p>
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/metodo 01.jpg" id="legal" style="max-width: 100%;">
+        <h3>Vamos furgir 03</h3>
+        <p>conheça já</p>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+</ion-content>
