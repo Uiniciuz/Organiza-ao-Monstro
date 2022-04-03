@@ -25,7 +25,23 @@ const routes: Routes = [
   {
     path: 'tab4',
     loadChildren: () => import('./tab4/tab4.module').then( m => m.Tab4PageModule)
-  }
+  },
+  {
+    path: 'metodo05',
+    loadChildren: () => import('./metodos/metodo05/metodo05.module').then( m => m.Metodo05PageModule)
+  },
+  {
+    path: 'metodo06',
+    loadChildren: () => import('./metodos/metodo06/metodo06.module').then( m => m.Metodo06PageModule)
+  },
+  {
+    path: 'metodo07',
+    loadChildren: () => import('./metodos/metodo07/metodo07.module').then( m => m.Metodo07PageModule)
+  },
+  {
+    path: 'metodo08',
+    loadChildren: () => import('./metodos/metodo08/metodo08.module').then( m => m.Metodo08PageModule)
+  },
 ];
 @NgModule({
   imports: [

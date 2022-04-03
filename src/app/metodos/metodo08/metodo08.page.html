@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-button (click)="showTab1()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+
+    <ion-title>
+      <div class="Ion-wrap-text">Estudo intercalado</div>
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/estudo_intercalado/01.png" id="legal" style="max-width:100%;">
+        <p style="text-align: justify;">
+          Esse método é indicado para pessoas que tem muitas matérias diferentes para estudar
+          e pessoas que procrastinam antes de estudar, já que a pessoa deve revisar o conteúdo
+          a cada pausa.
+        </p>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/estudo_intercalado/02.png" id="legal" style="max-width:100%;">
+        <p style="text-align: justify;">
+          No método você deve estudar uma matéria por um determinado período de tempo, logo após
+          passar para outra matéria mesmo que não tenha terminado de estudar todo o conteúdo, por
+          que nesse caso quando você  for volta a estudar essa matéria você vai ter que revisar o
+          conteúdo estudado, fazendo-o com que o conteúdo fixe na sua mente.
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/estudo_intercalado/03.png" id="legal" style="max-width:100%;">
+        <p style="text-align: justify;">
+          Assim, todo esse ciclo de mudar de matéria na metade do conteúdo deve ser repetido até
+          terminar de estudar, pois com a “quebra de matéria” o celebro não se cansa tanto e a
+          revisão ajuda a gravar o conteúdo.
+        </p>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+</ion-content>

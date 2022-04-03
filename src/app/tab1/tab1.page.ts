@@ -8,28 +8,53 @@ import { Component } from '@angular/core';
 export class Tab1Page {
   metodos = [
     {
-      metodo: 'Método 01',
-      url: '/assets/metodo 01.jpg',
+      metodo: 'Mapas mentais',
+      url: '/assets/mapa_mental/metodo_01_capa.jpg',
       pagina: '/metodo01'
     },
 
     {
-      metodo: 'Método 02',
-      url: '/assets/metodo 02.jpg',
+      metodo: 'Resumo',
+      url: '/assets/resumo/resumo_capa.png',
       pagina: '/metodo02'
     },
 
     {
-      metodo: 'Método 03',
-      url: '/assets/metodo 03.jpg',
+      metodo: 'Técnica Pomodoro',
+      url: '/assets/tecnica_pomodoro/capa.webp',
       pagina: '/metodo03'
     },
 
     {
-      metodo: 'Método 04',
-      url: '/assets/metodo 04.jpg',
+      metodo: 'Construção de tabelas',
+      url: '/assets/construcao_tabelas/capa.png',
       pagina: '/metodo04'
+    },
+
+    {
+      metodo: 'Testes prático',
+      url: '/assets/testes_praticos/capa.png',
+      pagina: '/metodo05'
+    },
+
+    {
+      metodo: 'Autointerrogação',
+      url: '/assets/autointerrogacao/capa.webp',
+      pagina: '/metodo06'
+    },
+
+    {
+      metodo: 'Memorização Mnemônica',
+      url: '/assets/memorizacao_mnemonica/capa.png',
+      pagina: '/metodo07'
+    },
+
+    {
+      metodo: 'Estudo intercalado',
+      url: '/assets/estudo_intercalado/capa.png',
+      pagina: '/metodo08'
     }
+
   ];
 
   constructor() {}

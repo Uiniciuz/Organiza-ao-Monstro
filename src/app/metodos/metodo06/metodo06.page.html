@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-button (click)="showTab1()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+
+    <ion-title>
+      <div class="Ion-wrap-text">Autointerrogação </div>
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/autointerrogacao/01.png" id="legal" style="max-width: 170px">
+        <p style="text-align: justify;">
+          Essa técnica é indicada para estudantes do nível médio ou superior, pois como
+          esses estudantes possuem uma grande bagagem esse método ajuda a gravar melhor
+          o conteúdo. Há, e esse método é mais indicado para provas, conceitos, matérias
+          teóricas já que é baseado na repetição de conceitos.
+        </p>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/autointerrogacao/02.png" id="legal" style="max-width: 170px;">
+        <p style="text-align: justify;">
+          O método consiste em fazer perguntas para se mesmo enquanto está estudando,
+          essas perguntas devem ser bem elaboradas, além de serem perguntadas e
+          respondidas em voz alta, para melhor absorção do conteúdo.
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/autointerrogacao/03.png" id="legal" style="max-width: 170px;">
+        <p style="text-align: justify;">
+          Se preferir, pode-se repetir as perguntas e as repostas até elas estarem bem fixadas. Uma
+          boa dica para elaborar as perguntas é imaginar contextos que possam cair em concursos e
+          provas semestrai.
+        </p>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/autointerrogacao/04.png" id="legal" style="max-width: 100%;">
+        <p style="text-align: justify;">
+          Um exemplo desse modo é quando uma pessoa ler sobre um tipo de vanguarda literária e,
+          depois, perguntar para se mesmo quais são os principais autores da época e os títulos
+          renomados, tentando se lembrar das obras que podem servir de exemplo.
+        </p>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+</ion-content>

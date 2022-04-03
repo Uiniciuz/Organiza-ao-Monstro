@@ -2,8 +2,13 @@ ion-title{
   font-weight: bold;
 }
 
-ion-slides{
-  height: 30rem;
+#legal{
+  max-width: 100%;
+}
+
+
+ion-slides {
+  height: 90vh;
 }
 
 ion-slide{
@@ -14,5 +19,7 @@ ion-slide{
 }
 
 ion-slide p{
-color: #888;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: rgb(0, 0, 0);
 }

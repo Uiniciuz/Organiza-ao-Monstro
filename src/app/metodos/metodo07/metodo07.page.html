@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-button (click)="showTab1()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+
+    <ion-title>
+      <div class="Ion-wrap-text">Memorização Mnemônica  </div>
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/memorizacao_mnemonica/01.png" id="legal" style="max-width:100%;">
+        <p style="text-align: justify;">
+          Esse método é indicado para pessoas que tem dificuldade para aprender conceitos,
+          assim esse método utiliza do poder de assimilar objetos, frases, números, musicas,
+          etc... a conceitos do conteúdo estudado.
+        </p>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/memorizacao_mnemonica/02.png" id="legal" style="max-width:100%;">
+        <p style="text-align: justify;">
+          Nele você deve pegar o conceito estudado e associar a experiencias do dia- a- dia,
+          a frases engraçadas, a partes do corpo ou qualquer coisa que possa fazer você lembrar
+          do conteúdo estudado.
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/memorizacao_mnemonica/03.png" id="legal" style="max-width:100%;">
+        <p style="text-align: justify;">
+          Um exemplo bem conhecido é utilizar de frases para aprender os elementos da tabela
+          periódicas como por exemplo:
+        </p>
+        <h3>Elementos da 3º família: Belas ALunas GAtinhas INdo TeLefonar</h3>
+        <p> Boro (B), Al (alumínio), Ga (gálio), In (índio), Tl (tálio)</p>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/memorizacao_mnemonica/exemplo.jpg" id="legal" style="max-width:100%;">
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+</ion-content>

@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-button (click)="showTab1()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+
+    <ion-title>
+      <div class="Ion-wrap-text">Teste Prático</div>
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/testes_praticos/001.png" id="legal" style="max-width: 100%;">
+        <p style="text-align: justify;">
+          Nesse método você deve estudar os conteúdos vendo vídeos- aulas ou resumos e ao
+          final dele realizar uma lista de exercício.
+        </p>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/testes_praticos/02.png" id="legal" style="max-width: 100%;">
+        <p style="text-align: justify;">
+          Nele, você pode alternar os horários podendo adequar ao seu tempo. O importante
+          nele é realizar as listas de exercícios e foca em resolução de questão.
+        </p>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/testes_praticos/03.png" id="legal" style="max-width: 100%;">
+        <h3>
+          Você pode pesquisar no navegador por sites para facilitar o seu aprendizado
+        </h3>
+      </ion-slide>
+
+    </ion-slides>
+  </div>
+
+</ion-content>
